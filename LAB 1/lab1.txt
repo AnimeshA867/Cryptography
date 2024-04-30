@@ -1,0 +1,6 @@
+Substitution Technique
+Write a program to illustrate 
+a. Ceasar Cipher
+b. Hill Cipher
+c. Vigenere Cipher
+d. Playful Cipher
