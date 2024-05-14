@@ -92,8 +92,8 @@ void playfair_cipher_encrypt(char matrix[][SIZE], char *text)
 
 int main()
 {
-    char key[] = "playfair example";
-    char text[] = "Hide the gold in the tree stump";
+    char key[] = "KEYWORD";
+    char text[] = "WHYDONOTTOU";
     char matrix[SIZE][SIZE];
 
     createPlayfairMatrix(key, matrix);
