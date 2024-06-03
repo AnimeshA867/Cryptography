@@ -20,7 +20,7 @@ void vigenere_cipher_encrypt(char *text, char *key)
 
 int main()
 {
-    char text[] = "Hello, World!";
+    char text[] = "ANIMESH ACHARYA";
     char key[] = "key";
 
     printf("Original text: %s\n", text);

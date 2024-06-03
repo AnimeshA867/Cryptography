@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
-
 #define SIZE 5
-
 void createPlayfairMatrix(char key[], char matrix[][SIZE])
 {
     char alphabet[26] = "ABCDEFGHIKLMNOPQRSTUVWXYZ";
@@ -22,11 +20,8 @@ void createPlayfairMatrix(char key[], char matrix[][SIZE])
             keyLen++;
         }
     }
-
     key[keyLen] = '\0';
-
     strcat(alphabet, key);
-
     len = strlen(alphabet);
     k = 0;
 
@@ -39,7 +34,6 @@ void createPlayfairMatrix(char key[], char matrix[][SIZE])
         }
     }
 }
-
 void playfair_cipher_encrypt(char matrix[][SIZE], char *text)
 {
     int i, r1, r2, c1, c2;
@@ -89,20 +83,14 @@ void playfair_cipher_encrypt(char matrix[][SIZE], char *text)
         }
     }
 }
-
 int main()
 {
     char key[] = "KEYWORD";
-    char text[] = "WHYDONOTTOU";
+    char text[] = "ANIMESHACHARYA";
     char matrix[SIZE][SIZE];
-
     createPlayfairMatrix(key, matrix);
-
     printf("Original text: %s\n", text);
-
     playfair_cipher_encrypt(matrix, text);
-
     printf("Encrypted text: %s\n", text);
-
     return 0;
 }
