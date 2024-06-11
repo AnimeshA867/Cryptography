@@ -1,0 +1,6 @@
+1. Find the totient of a given number
+2. WAP to check fi the given number is prime using traditional method
+3. Impelement Miller's Algorithm for testing primality
+4. Implement Diffie-Hellman Key exchange
+5. Implement RSA algorithm
+6. Implement Elgamal cryptographic system
