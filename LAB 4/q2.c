@@ -33,6 +33,7 @@ int main()
         printf("%d is a prime number.\n", number);
     else
         printf("%d is not a prime number.\n", number);
+    printf("Program by Animesh Acharya \n");
 
     return 0;
 }

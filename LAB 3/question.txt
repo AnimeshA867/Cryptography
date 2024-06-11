@@ -1,0 +1,4 @@
+1) WAP to implement the Euclidean Algorithm (GCD)
+2) WAP to find additive inverse
+3) WAP to find the multiplicative inverse.
+4) WAP to verify if two numbers are relatively prime of not.

@@ -1,28 +1,37 @@
-//Find the totient of a given number
+#include <stdio.h>
 
-#include<stdio.h>
-
-int gcd(int a, int b){
-    if(a==0){
-        return b;
-    }else{
-        return gcd(a%b,a);
+// Function to calculate the GCD of two numbers
+unsigned long long gcd(unsigned long long a, unsigned long long b)
+{
+    while (b != 0)
+    {
+        unsigned long long temp = b;
+        b = a % b;
+        a = temp;
     }
+    return a;
 }
 
-void main(){
-    int n;
-    printf("Enter a number:");
-    scanf("%d",&n);
-    int arr[n],index=0;
-    for(int i=0;i<n;i++){
-        if(gcd(i,n)==1){
-            arr[index]=i;
-            index++;
+// Function to calculate Euler's Totient Function
+unsigned long long euler_totient(unsigned long long n)
+{
+    unsigned long long count = 0;
+    for (unsigned long long i = 1; i < n; i++)
+    {
+        if (gcd(n, i) == 1)
+        {
+            count++;
         }
     }
-    printf("The totient of %d are :\n",n);
-    for( int i=0;i<index+1;i++){
-        printf("%d\t",arr[i]);
-    }
+    return count;
+}
+
+int main()
+{
+    unsigned long long n;
+    printf("Enter a number: ");
+    scanf("%llu", &n);
+    printf("Euler's Totient Function φ(%llu) = %llu\n", n, euler_totient(n));
+    printf("Program by Animesh Acharya \n");
+    return 0;
 }

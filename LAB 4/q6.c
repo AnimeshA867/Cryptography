@@ -84,6 +84,7 @@ int main()
 
     unsigned long long decrypted_message = elgamal_decrypt(p, x, c1, c2);
     printf("Decrypted message: %llu\n", decrypted_message);
+    printf("Program by Animesh Acharya \n");
 
     return 0;
 }

@@ -75,6 +75,7 @@ int main()
         printf("%llu is a prime number.\n", num);
     else
         printf("%llu is not a prime number.\n", num);
+    printf("Program by Animesh Acharya \n");
 
     return 0;
 }
