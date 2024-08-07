@@ -16,20 +16,8 @@ In this repository, you will find implementations, assignments, projects, and re
 
 - **Resources**: This directory includes helpful resources such as lecture notes, textbooks, research papers, and links to online resources related to cryptography.
 
-## Contributing
-
-Contributions to this repository are welcome! If you have implementations of cryptographic algorithms, solved assignments, interesting projects, or valuable resources related to cryptography, feel free to contribute by opening a pull request.
-
-Please ensure that your contributions adhere to the guidelines outlined in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
-
-## License
-
-The contents of this repository are licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
-
-- [Your Name]: Creator of this repository
-- [Name of Your Institution]: Affiliation
 - Contributors: List of contributors (if applicable)
 - [OpenAI](https://openai.com): For providing tools and assistance
 - [GitHub](https://github.com): For hosting this repository

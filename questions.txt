@@ -1,0 +1,29 @@
+LAB 1:
+Substitution Technique
+Write a program to illustrate 
+a. Ceasar Cipher
+b. Hill Cipher
+c. Vigenere Cipher
+d. Playful Cipher
+
+LAB 2:
+Transposition Cipher
+1. Row Transposition Cipher
+2. Rail Fence Cipher
+
+LAB 3:
+1) WAP to implement the Euclidean Algorithm (GCD)
+2) WAP to find additive inverse
+3) WAP to find the multiplicative inverse.
+4) WAP to verify if two numbers are relatively prime of not.
+
+LAB 4:
+1. Find the totient of a given number
+2. WAP to check fi the given number is prime using traditional method
+3. Impelement Miller's Algorithm for testing primality
+4. Implement Diffie-Hellman Key exchange
+5. Implement RSA algorithm
+6. Implement Elgamal cryptographic system
+
+
+
